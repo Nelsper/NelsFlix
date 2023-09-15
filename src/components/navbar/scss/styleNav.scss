@@ -1,0 +1,42 @@
+.navbar{
+    height: 100%;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient( rgba(23, 32, 42, 0), rgba(23, 32, 42, 1));
+    backdrop-filter: blur(10px);
+    border-right: 2px solid #48C9B0;
+    position: fixed;
+    z-index: 99;
+    opacity: 0;
+    margin-left: -4.7rem;
+    transition: 300ms;
+    &:hover{
+        opacity: 1;
+        margin-left: 0;
+    }
+
+    .logo img{
+        width: 5rem;  
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+
+        .item{
+            //display: inline-block;
+            text-decoration: none;
+            margin: 1rem 0rem;
+            color: #48C9B0;
+            transition: 200ms;
+            &:hover{
+                color: #75FF33;
+            }
+        }
+    }
+}
+
