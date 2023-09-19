@@ -1,14 +1,17 @@
 import React from "react";
 import "./scss/styleHome.css";
-import fondo from "../../assets/images/fondo.jpg"
+
+import Carousel from "../../components/carouselFlayer/Carousel";
+import Card from "../../components/carouselCard/Card.jsx";
 
 
 const Home = () => {
 
     return(
         <>
-            <h1>Home</h1>
-            <img src={fondo} alt="" />
+            <Carousel/>
+            <Card/>
+            
         </>
     )
 };
