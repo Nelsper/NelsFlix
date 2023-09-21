@@ -1,0 +1,82 @@
+const dbPremiere = {
+  premiere: [
+    {
+      id: 1,
+      category: "Premiere",
+      title: "Gran Turismo",
+      descrip:
+        "La película está basada en la historia real de Jann Mardenborough, quien ganó una serie de competiciones de Nissan patrocinadas por el videojuego Gran Turismo. Estas competiciones le dieron la oportunidad de convertirse en un piloto de carreras profesional, y en 2011 se convirtió en el tercer ganador de la GT Academy, un programa de Nissan que busca pilotos de carreras a través de Gran Turismo.",
+      year: "2023",
+      flayer: "Gran_Turismo.avif",
+      img: "",
+      alt: "poster gran turismo",
+      trailer: "https://youtu.be/GVPzGBvPrzw?si=yvggZNOtgdKHJSvO",
+      to: "ruta de la pelicula",
+    },
+    {
+      id: 2,
+      category: "Premiere",
+      title: "La Monja II",
+      descrip:
+        "Cuatro años después de los eventos de la primera película, la hermana Irene regresa a Rumanía para investigar un asesinato en un internado. La monja que fue asesinada era su amiga y compañera de fe, la hermana Victoria. Irene se siente culpable por la muerte de Victoria, ya que ella fue la que la envió a investigar en solitario.",
+      year: "2023",
+      flayer: "La_Monja_II.avif",
+      img: "",
+      alt: "poster la monja 2",
+      trailer: "https://youtu.be/Em7wEqLzDnE?si=9rSplXkWECGaOHs_",
+      to: "ruta de la pelicula",
+    },
+    {
+      id: 3,
+      category: "Premiere",
+      title: "Megalodon II",
+      descrip:
+        "Un equipo de investigación liderado por Jonas Taylor se sumerge en las profundidades más abismales del mar para investigar una serie de misteriosas muertes de barcos. Sin embargo, su viaje se convierte en caos cuando una operación minera submarina amenaza su misión y los obliga a librar una batalla de alto riesgo por la supervivencia.",
+      year: "2023",
+      flayer: "Megalodon_II.avif",
+      img: "",
+      alt: "poster megalodon 2",
+      trailer: "https://youtu.be/e6mJF-uDXYE?si=XONLaqLjtkNj2BgE",
+      to: "ruta de la pelicula",
+    },
+    {
+      id: 4,
+      category: "Premiere",
+      title: "Oppenheimer",
+      descrip:
+        "Oppenheimer es un relato épico de la vida y la época de J. Robert Oppenheimer, el físico estadounidense que lideró el Proyecto Manhattan, que condujo al desarrollo de la bomba atómica. La película explora las consecuencias morales de la ciencia y el papel de Oppenheimer en la creación de una arma que cambiaría el mundo para siempre.",
+      year: "2023",
+      flayer: "Oppenheimer.avif",
+      img: "",
+      alt: "poster oppenheimer",
+      trailer: "https://youtu.be/gMPEbJQun68?si=mCypLCZApafDNio6",
+      to: "ruta de la pelicula",
+    },
+    {
+      id: 5,
+      category: "Premiere",
+      title: "The Marvels",
+      descrip:
+        "La película comienza con Carol Danvers explorando el cosmos en busca de respuestas sobre su pasado. Mientras tanto, Monica Rambeau, ahora una agente de SWORD, investiga una serie de ataques misteriosos. Kamala Khan, una adolescente pakistaní-estadounidense que ha desarrollado superpoderes, se une a la investigación de Rambeau.",
+      year: "2023",
+      flayer: "The_Marvels.avif",
+      img: "",
+      alt: "poster the marvels",
+      trailer: "https://youtu.be/itm8efx8k8U?si=fgbnKY9XvUvKLJig",
+      to: "ruta de la pelicula",
+    },
+    {
+      id: 6,
+      category: "Premiere",
+      title: "Tortugas Ninja",
+      descrip:
+        "Cuatro tortugas mutantes adolescentes, Leonardo, Raphael, Donatello y Michelangelo, viven en las alcantarillas de Nueva York. Después de años de vivir en secreto, las tortugas deciden salir a la superficie para ganarse el respeto de los humanos y ser aceptadas como adolescentes normales. Las tortugas se unen a una aspirante a reportera, April O`Neil, para luchar contra un misterioso sindicato criminal. Sin embargo, pronto se encuentran cara a cara con un ejército de mutantes creados por el sindicato.",
+      year: "2023",
+      flayer: "Tortugas.avif",
+      img: "",
+      alt: "poster tortugas ninja",
+      trailer: "https://youtu.be/Ae5_Sm_b8Wc?si=gyhrB4JXHwcESVU0",
+      to: "ruta de la pelicula",
+    },
+  ],
+};
